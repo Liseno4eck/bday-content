@@ -1,44 +1,66 @@
 {
-    "secret":  "1234",
-    "letter":  {
-                   "sign":  "",
-                   "envelopeTitle":  "Тебе письмо",
-                   "text":  "Текст письма ты напишешь в админке.",
-                   "hint":  "Нажми на конверт, чтобы открыть",
-                   "photo":  "",
-                   "title":  "С днём рождения!",
-                   "button":  "Продолжить"
-               },
-    "final":  {
-                  "title":  "С Днём Рождения",
-                  "again":  "Ещё раз",
-                  "photos":  [
-
-                             ],
-                  "subtitle":  ""
-              },
-    "intro":  {
-                  "title":  "Приветик",
-                  "text":  "Думаю, ты знаешь, что я увлекаюсь программированием.",
-                  "button":  "Далее"
-              },
-    "check":  {
-                  "title":  "Так что...",
-                  "text":  "Знаю, что у тебя сегодня день рождения. Давай проверим, не ошибся ли я.",
-                  "button":  "Далее"
-              },
-    "theme":  {
-                  "bg":  "#07000f",
-                  "n3":  "#00e5ff",
-                  "n1":  "#ff2bd1",
-                  "hearts":  true,
-                  "n2":  "#7b5cff"
-              },
-    "birthday":  "19.11",
-    "date":  {
-                 "title":  "Когда у тебя ДР?",
-                 "error":  "Хм, не похоже. Попробуй ещё раз",
-                 "hint":  "введи дату в формате дд.мм",
-                 "button":  "Проверить"
-             }
+  "secret": "1234",
+  "birthday": "22.12",
+  "theme": {
+    "n1": "#ff2bd1",
+    "n2": "#7b5cff",
+    "n3": "#00e5ff",
+    "bg": "#07000f",
+    "hearts": true
+  },
+  "intro": {
+    "title": "Тест",
+    "text": "Думаю, ты знаешь, что я увлекаюсь программированием.",
+    "button": "Жмяк"
+  },
+  "check": {
+    "title": "Так что...",
+    "text": "Знаю, что у тебя сегодня день рождения. Давай проверим, не ошибся ли я.",
+    "button": "Зинк"
+  },
+  "date": {
+    "title": "Когда у тебя ДР?",
+    "button": "Проверить",
+    "hint": "введи дату в формате дд.мм",
+    "error": "Хм, не похоже. Попробуй ещё раз"
+  },
+  "letter": {
+    "envelopeTitle": "Тебе письмо",
+    "hint": "Нажми на конверт, чтобы открыть",
+    "title": "С днём рождения!",
+    "text": "Текст письма ты напишешь в админке.",
+    "sign": "",
+    "photos": [
+      {
+        "src": "https://raw.githubusercontent.com/Liseno4eck/bday-content/main/img/mwnrezdz-tlns.jpg",
+        "caption": ""
+      }
+    ],
+    "button": "Продолжить",
+    "photo": ""
+  },
+  "final": {
+    "title": "С Днём Рождения",
+    "subtitle": "",
+    "again": "Ещё раз",
+    "photos": [
+      {
+        "src": "https://raw.githubusercontent.com/Liseno4eck/bday-content/main/img/mwnrf7r9-q1a7.jpg",
+        "caption": ""
+      },
+      {
+        "src": "https://raw.githubusercontent.com/Liseno4eck/bday-content/main/img/mwnrf9i1-dql3.jpg",
+        "caption": ""
+      },
+      {
+        "src": "https://raw.githubusercontent.com/Liseno4eck/bday-content/main/img/mwnrfb2x-ynrr.jpg",
+        "caption": ""
+      },
+      {
+        "src": "https://raw.githubusercontent.com/Liseno4eck/bday-content/main/img/mwnrfcqx-rml4.jpg",
+        "caption": ""
+      }
+    ],
+    "interval": 2500
+  }
 }
